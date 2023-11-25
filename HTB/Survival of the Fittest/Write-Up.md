@@ -71,12 +71,15 @@ To take the flag we should defeat our enemies with a lifePoints of 20. We have 2
 **STEP 2: Checking website**
 
 Meeting our enemies ;)
+
 ![image](https://github.com/luvranse/web3/assets/46570641/2a64b0db-e3be-4682-a6ee-9a951051de1f)
 
 Also you can check guide in `docs`.
+
 ![image](https://github.com/luvranse/web3/assets/46570641/1bbf0712-2ede-4a15-a45e-1533e63e4455)
 
 Check the `connections` to find needed address `TargetAddress` and key `PrivateKey`.
+
 ![image](https://github.com/luvranse/web3/assets/46570641/999be50d-3c52-4199-a951-ca6916d8bc11)
 
 **STEP 3: The Battle**
@@ -98,7 +101,7 @@ cast send --rpc-url http://IP:PORT/rpc --private-key PRIVATE_KEY TARGET_ADDRESS 
 Now we can get our flag. Congratz!
 ![image](https://github.com/luvranse/web3/assets/46570641/60e8686c-59c2-4234-a216-edbb2ff97027)
 
-###FLAG
+### FLAG
 ```
 HTB{g0t_y0u2_f1r5t_b100d}
 ```
