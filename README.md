@@ -1,4 +1,4 @@
-# Web3 and Blockhain
+# Web3 and Blockchain
 
 ### Tools:
 
