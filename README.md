@@ -3,3 +3,5 @@
 ### Tools:
 
 - Foundry
+- Hardhat
+- Brownie
