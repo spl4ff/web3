@@ -108,14 +108,14 @@ contract Attacker {
 
 We need to deploy it to distract enemy.
 
-Deploy:
+Deploying via `forge`:
 
 ![image](https://github.com/luvranse/web3/assets/46570641/30965871-2205-41cb-8e07-8e7bee8417da)
 
 
 **STEP 3: The Battle**
 
-Initiate an attack with one of our contracts. Distract the enemy.
+Initiate an attack via `cast` with one of our contracts. Distract the enemy.
 
 ![image](https://github.com/luvranse/web3/assets/46570641/d417621b-9c19-48eb-a161-216f52c0b59b)
 
