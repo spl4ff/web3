@@ -73,7 +73,7 @@ Here you can see some differences from the `Survival of the Fittest` files, such
 
 **STEP 2: The Bypass**
 
-Take a look to the `_isOffBalance()` function
+Take a look to the `_isOffBalance()` function. 
 
 ```
 function _isOffBalance() private view returns (bool) {
