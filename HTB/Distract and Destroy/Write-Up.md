@@ -106,33 +106,30 @@ contract Attacker {
 }
 ```
 
-We need to deploy it twice to distract enemy.
+We need to deploy it to distract enemy.
 
-First deploy:
+Deploy:
 
-![image](https://github.com/luvranse/web3/assets/46570641/8094ec25-7c85-4e43-9ebf-96ddf53df1cf)
+![image](https://github.com/luvranse/web3/assets/46570641/30965871-2205-41cb-8e07-8e7bee8417da)
 
-Second deploy:
-
-![image](https://github.com/luvranse/web3/assets/46570641/80ce8c85-ee18-4b7d-80f4-a17646138850)
 
 **STEP 3: The Battle**
 
 Initiate an attack with one of our contracts. Distract the enemy.
 
-![image](https://github.com/luvranse/web3/assets/46570641/b67668e1-8f2d-4894-b2d4-0289fa67f46a)
+![image](https://github.com/luvranse/web3/assets/46570641/d417621b-9c19-48eb-a161-216f52c0b59b)
 
 Then attack with another one. 
 
-![image](https://github.com/luvranse/web3/assets/46570641/95349e4f-b63d-4c21-881e-cbd3ef07347e)
+![image](https://github.com/luvranse/web3/assets/46570641/cfe7d15c-dd96-4e7c-a96d-454a2bac6854)
 
 Let's try take a loot. 
 
-![image](https://github.com/luvranse/web3/assets/46570641/ceeb051f-df34-4037-82b2-f2f2f13a352f)
+![image](https://github.com/luvranse/web3/assets/46570641/f551402d-c47d-4b4d-87f2-c440b85f9b50)
 
 Congratz! There is the flag!
 
-![image](https://github.com/luvranse/web3/assets/46570641/f1a06966-e9fd-4dab-8799-a75c92da167f)
+![image](https://github.com/luvranse/web3/assets/46570641/f895087e-50f5-404e-bd6b-5cf0580cf372)
 
 ### FLAG
 
