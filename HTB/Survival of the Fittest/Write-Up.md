@@ -88,13 +88,13 @@ To interact with blockchain on /rpc endpoint we gonna use `cast`.
 
 Let's fight:
 ```
-cast send --rpc-url http://IP:PORT/rpc --private-key PRIVATE_KEY TARGET_ADDRESS "strongAttack(uint256)" 20
+cast send --rpc-url http://IP:PORT/rpc --private-key $PRIVATE_KEY $TARGET_ADDRESS "strongAttack(uint256)" 20
 ```
 ![image](https://github.com/luvranse/web3/assets/46570641/2f8c717f-f6d8-40aa-bfab-6b2726d41fb0)
 
 After defeating the enemies, we can collect the loot.
 ```
-cast send --rpc-url http://IP:PORT/rpc --private-key PRIVATE_KEY TARGET_ADDRESS "loot()"
+cast send --rpc-url http://IP:PORT/rpc --private-key $PRIVATE_KEY $TARGET_ADDRESS "loot()"
 ```
 ![image](https://github.com/luvranse/web3/assets/46570641/7c18c04b-7c2a-4594-aa12-ef656168bf36)
 
